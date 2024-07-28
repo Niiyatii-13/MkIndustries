@@ -28,7 +28,7 @@
     border-radius: 50%;
 }
 .foodItemImgContainer .add:hover{
-    border: 2px solid #ff24a4;
+    border: 2px solid black;
 }
 .foodItemImage{
    width: 100%;
@@ -51,6 +51,9 @@
 .foodItemInfo{
     padding: 20px;
 }
+.foodItemInfo p{
+    color: white;
+}
 .plus,.minus{
     transform: scale(0.5);
 }
@@ -68,11 +71,11 @@
     width: 70px;
 }
 .foodItemDesc{
-    color: #000000;
+    color: white;
     font-size: 12px;
 }
 .foodItemPrice{
-    color: #ff24a4;
+    color: white;
     font-size: 22px;
     font-weight: 500;
     margin: 10px 0px;
