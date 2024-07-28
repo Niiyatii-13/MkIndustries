@@ -35,8 +35,8 @@
 }
 
 .sidebarOption.active {
-    background-color: #ffedfb;
-    border-color: #ff24a4;
+    background-color: gray;
+    border-color: black;
 }
 @media (max-width:900px) {
     .sidebarOption p{
