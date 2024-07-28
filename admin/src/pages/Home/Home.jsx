@@ -51,7 +51,7 @@ const Home = () => {
                 </div>
                 <div className = "stat">
                     <div className="count">
-                        <p>Number of food items are:</p>
+                        <p>Number of items are:</p>
                         <p>{noOfFoodItems}</p>
                     </div>
                     <button onClick = {()=>navigate("/list")}>View</button>
