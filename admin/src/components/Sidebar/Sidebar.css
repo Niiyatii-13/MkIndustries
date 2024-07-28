@@ -35,6 +35,7 @@
 }
 
 .sidebarOption.active {
+    color:white;
     background-color: gray;
     border-color: black;
 }
