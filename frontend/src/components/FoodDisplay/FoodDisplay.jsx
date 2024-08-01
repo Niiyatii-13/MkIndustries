@@ -32,7 +32,7 @@ const FoodDisplay = ({category}) => {
   if(loading)return <Loading/>
   return (
       <div className='foodDisplay' id='foodDisplay'>
-      <h2>Top dishes near you</h2>
+      <h2>Top items for you</h2>
       <div className='foodDisplayList'>
         {food_list.map((item)=>{
           if (category==="All" || category===item.category) {
