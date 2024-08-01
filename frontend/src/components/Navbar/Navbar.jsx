@@ -22,7 +22,7 @@ const Navbar = ({ setShowLogin }) => {
       <Link to='/'><img className='logo' src={assets.logo} alt="" /></Link>
       <ul className="navbarMenu">
         <Link to="/" onClick={() => setMenu("home")} className={`${menu === "home" ? "active list" : "list"}`}>Home</Link>
-        <a href='#exploreMenu' onClick={() => setMenu("catalog")} className={`${menu === "catalog" ? "active list" : "list"}`}>catalog</a>
+        <a href='#exploreMenu' onClick={() => setMenu("catalog")} className={`${menu === "catalog" ? "active list" : "list"}`}>Catalog</a>
         <a href='#appDownload' onClick={() => setMenu("mobile-app")} className={`${menu === "mobile-app list" ? "active" : "list"}`}>Mobile app</a>
         <a href='#footer' onClick={() => setMenu("contact")} className={`${menu === "contact" ? "active list" : "list"}`}>Contact Us</a>
       </ul>
